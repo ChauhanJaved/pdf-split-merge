@@ -14,7 +14,7 @@ export const headerNavItems: string[] = [
   HeaderNavItems.Home,
   HeaderNavItems.Contact,
 ];
-export const websiteURL: string = "https://pdf-split-merge.com";
+export const websiteURL: string = "https://www.pdf-split-merge.com";
 export const indexMetadata: Metadata = {
   title: "PDF Splitter, Combiner & Split-Merge Tool (Online & Desktop App)",
   description:
@@ -33,13 +33,13 @@ export const indexMetadata: Metadata = {
     "free pdf utility",
   ],
   alternates: {
-    canonical: `${websiteURL}`,
+    canonical: `${websiteURL}/`,
   },
   openGraph: {
     title: "PDF Splitter, Combiner & Split-Merge Tool (Online & Desktop App)",
     description:
       "Split, combine, or split & merge PDF files instantly. Use our online PDF tools or desktop apps for complete privacy, speed, and efficiency.",
-    url: `${websiteURL}`,
+    url: `${websiteURL}/`,
     siteName: "PDF File Tools",
     images: [
       {
@@ -123,18 +123,20 @@ export type ProductSubTitles =
   (typeof productSubTitles)[keyof typeof productSubTitles];
 
 export const productWebsites = {
-  PDFSplitter: "https://www.pdf-tiff-tools.com/pdf-splitter",
-  PDFCombiner: "https://www.pdf-tiff-tools.com/pdf-combiner",
-  PDFSplitMerge: "https://www.pdf-tiff-tools.com/pdf-split-merge",
+  PDFSplitter: "https://www.pdf-tiff-tools.com/pdf-splitter/",
+  PDFCombiner: "https://www.pdf-tiff-tools.com/pdf-combiner/",
+  PDFSplitMerge: "https://www.pdf-tiff-tools.com/pdf-split-merge/",
 } as const;
 export type ProductWebsite =
   (typeof productWebsites)[keyof typeof productWebsites];
 
 export const productDownloadLinks = {
-  PDFSplitter: "https://pdf-split-merge.com/downloads/pdf-splitter-setup.exe",
-  PDFCombiner: "https://pdf-split-merge.com/downloads/pdf-combiner-setup.exe",
+  PDFSplitter:
+    "https://www.pdf-split-merge.com/downloads/pdf-splitter-setup.exe",
+  PDFCombiner:
+    "https://www.pdf-split-merge.com/downloads/pdf-combiner-setup.exe",
   PDFSplitMerge:
-    "https://pdf-split-merge.com/downloads/pdf-split-merge-setup.exe",
+    "https://www.pdf-split-merge.com/downloads/pdf-split-merge-setup.exe",
 } as const;
 export type ProductDownloadLinks =
   (typeof productDownloadLinks)[keyof typeof productDownloadLinks];

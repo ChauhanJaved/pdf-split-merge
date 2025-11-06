@@ -17,7 +17,7 @@ export const PDFCombiner: portfolioItem = {
   width: productImages.PDFCombiner.width,
   height: productImages.PDFCombiner.height,
   categories: [Categories.All, Categories.DesktopApp, Categories.Merger],
-  pageLink: `/${ProductIDs.PDFCombiner}`,
+  pageLink: `/${ProductIDs.PDFCombiner}/`,
   productWebsite: productWebsites.PDFCombiner,
   downloadLink: productDownloadLinks.PDFCombiner,
 

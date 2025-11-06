@@ -22,7 +22,7 @@ export const PDFSplitMerge: portfolioItem = {
     Categories.Splitter,
     Categories.Merger,
   ],
-  pageLink: `/${ProductIDs.PDFSplitMerge}`,
+  pageLink: `/${ProductIDs.PDFSplitMerge}/`,
   productWebsite: productWebsites.PDFSplitMerge,
   downloadLink: productDownloadLinks.PDFSplitMerge,
 

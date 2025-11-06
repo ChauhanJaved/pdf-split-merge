@@ -4,27 +4,22 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: `${websiteURL}`,
+      url: `${websiteURL}/`,
       lastModified: new Date(),
       priority: 1,
     },
     {
-      url: `${websiteURL}/index.html`,
-      lastModified: new Date(),
-      priority: 0.9,
-    },
-    {
-      url: `${websiteURL}/${ProductIDs.PDFSplitter}.html`,
+      url: `${websiteURL}/${ProductIDs.PDFSplitter}/`,
       lastModified: new Date(),
       priority: 0.8,
     },
     {
-      url: `${websiteURL}/${ProductIDs.PDFCombiner}.html`,
+      url: `${websiteURL}/${ProductIDs.PDFCombiner}/`,
       lastModified: new Date(),
       priority: 0.8,
     },
     {
-      url: `${websiteURL}/${ProductIDs.PDFSplitMerge}.html`,
+      url: `${websiteURL}/${ProductIDs.PDFSplitMerge}/`,
       lastModified: new Date(),
       priority: 0.8,
     },
