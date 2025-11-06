@@ -71,13 +71,13 @@ export default async function Page({ params }: Props) {
               <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
                 {portfolioItem.downloadLink && (
                   <Button asChild className="text-base">
-                    <Link
+                    <a
                       className="flex flex-row items-center justify-center gap-3"
                       href={portfolioItem.downloadLink}
                     >
                       <Download />
                       <span> Download Now</span>
-                    </Link>
+                    </a>
                   </Button>
                 )}
               </div>
