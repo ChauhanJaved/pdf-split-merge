@@ -111,7 +111,7 @@ export const PDFSplitMerge: portfolioItem = {
       title: `Free ${productTitles.PDFSplitMerge} for Windows | Fast & Reliable PDF Splitting and Merging Tool`,
       description:
         "Effortlessly split and merge PDF files with our fast and free Windows software. Enjoy an intuitive interface, batch processing, and customizable splitting and merging options for complete document control.",
-      url: `https://www.frameworkteam.com/${ProductIDs.PDFSplitMerge}.html`,
+      url: productWebsites.PDFSplitMerge,
       siteName: `${productTitles.PDFSplitMerge} for Windows`,
       images: [
         {
@@ -128,4 +128,42 @@ export const PDFSplitMerge: portfolioItem = {
       type: "article",
     },
   },
+  licenseOptions: [
+    {
+      licenseType: "ONE Computer License",
+      price: "$24.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-split-merge-one-computer-license",
+    },
+    {
+      licenseType: "TWO Computers License",
+      price: "$39.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-split-merge-two-computers-license",
+    },
+    {
+      licenseType: "THREE Computers License",
+      price: "$44.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-split-merge-three-computers-license",
+    },
+    {
+      licenseType: "FIVE Computers License",
+      price: "$64.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-split-merge-five-computers-license",
+    },
+    {
+      licenseType: "TEN Computers License",
+      price: "$109.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-split-merge-ten-computers-license",
+    },
+    {
+      licenseType: "UNLIMITED Computers License",
+      price: "$224.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-split-merge-unlimited-computers-license",
+    },
+  ],
 };

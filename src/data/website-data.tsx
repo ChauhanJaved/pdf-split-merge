@@ -114,17 +114,18 @@ export const productTitles = {
 export type ProductTitles = (typeof productTitles)[keyof typeof productTitles];
 
 export const productSubTitles = {
-  PDFSplitter: "Windows 11/10/8/7 | Fully Functional 15 Days Free Trial",
-  PDFCombiner: "Windows 11/10/8/7 | Fully Functional 15 Days Free Trial",
-  PDFSplitMerge: "Windows 11/10/8/7 | Fully Functional 15 Days Free Trial",
+  PDFSplitter: "Secure Windows Desktop Application to split PDF files",
+  PDFCombiner: "Secure Windows Desktop Application to combine PDF files",
+  PDFSplitMerge:
+    "Secure Windows Desktop Application to split and merge PDF files",
 } as const;
 export type ProductSubTitles =
   (typeof productSubTitles)[keyof typeof productSubTitles];
 
 export const productWebsites = {
-  PDFSplitter: "https://pdf-split-merge.com/pdf-splitter.html",
-  PDFCombiner: "https://pdf-split-merge.com/pdf-combiner.html",
-  PDFSplitMerge: "https://pdf-split-merge.com/pdf-split-merge.html",
+  PDFSplitter: "https://www.pdf-tiff-tools.com/pdf-splitter",
+  PDFCombiner: "https://www.pdf-tiff-tools.com/pdf-combiner",
+  PDFSplitMerge: "https://www.pdf-tiff-tools.com/pdf-split-merge",
 } as const;
 export type ProductWebsite =
   (typeof productWebsites)[keyof typeof productWebsites];
@@ -137,6 +138,11 @@ export const productDownloadLinks = {
 } as const;
 export type ProductDownloadLinks =
   (typeof productDownloadLinks)[keyof typeof productDownloadLinks];
+export interface LicenseOption {
+  licenseType: string;
+  price: string;
+  paymentLink: string;
+}
 export interface portfolioItem {
   id: ProductIDs;
   title: ProductTitles;
@@ -151,4 +157,5 @@ export interface portfolioItem {
   features: string[];
   description?: ReactNode;
   metaData: Metadata;
+  licenseOptions: LicenseOption[];
 }

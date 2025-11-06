@@ -106,7 +106,7 @@ export const PDFSplitter: portfolioItem = {
       title: `Free ${productTitles.PDFSplitter} for Windows | Fast & Reliable PDF Splitting Tool`,
       description:
         "Easily split large PDF files with our fast and free Windows software. Enjoy an intuitive interface, batch processing, and customizable splitting options for precise document control.",
-      url: `https://www.frameworkteam.com/${ProductIDs.PDFSplitter}.html`,
+      url: productWebsites.PDFSplitter,
       siteName: `${productTitles.PDFSplitter} for Windows`,
       images: [
         {
@@ -123,4 +123,42 @@ export const PDFSplitter: portfolioItem = {
       type: "article",
     },
   },
+  licenseOptions: [
+    {
+      licenseType: "ONE Computer License",
+      price: "$24.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-splitter-one-computer-license",
+    },
+    {
+      licenseType: "TWO Computers License",
+      price: "$39.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-splitter-two-computers-license",
+    },
+    {
+      licenseType: "THREE Computers License",
+      price: "$44.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-splitter-three-computers-license",
+    },
+    {
+      licenseType: "FIVE Computers License",
+      price: "$64.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-splitter-five-computers-license",
+    },
+    {
+      licenseType: "TEN Computers License",
+      price: "$109.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-splitter-ten-computers-license",
+    },
+    {
+      licenseType: "UNLIMITED Computers License",
+      price: "$224.95 USD",
+      paymentLink:
+        "https://frameworkteam.onfastspring.com/pdf-splitter-unlimited-computers-license",
+    },
+  ],
 };
