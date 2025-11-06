@@ -9,17 +9,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${websiteURL}/${ProductIDs.PDFSplitter}/`,
+      url: `${websiteURL}/${ProductIDs.PDFSplitter}`,
       lastModified: new Date(),
       priority: 0.8,
     },
     {
-      url: `${websiteURL}/${ProductIDs.PDFCombiner}/`,
+      url: `${websiteURL}/${ProductIDs.PDFCombiner}`,
       lastModified: new Date(),
       priority: 0.8,
     },
     {
-      url: `${websiteURL}/${ProductIDs.PDFSplitMerge}/`,
+      url: `${websiteURL}/${ProductIDs.PDFSplitMerge}`,
       lastModified: new Date(),
       priority: 0.8,
     },

@@ -17,7 +17,7 @@ export const PDFSplitter: portfolioItem = {
   width: productImages.PDFSplitter.width,
   height: productImages.PDFSplitter.height,
   categories: [Categories.All, Categories.DesktopApp, Categories.Splitter],
-  pageLink: `/${ProductIDs.PDFSplitter}/`,
+  pageLink: `/${ProductIDs.PDFSplitter}`,
   productWebsite: productWebsites.PDFSplitter,
   downloadLink: productDownloadLinks.PDFSplitter,
   features: [
