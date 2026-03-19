@@ -1,7 +1,7 @@
 //Vendor Imports
 import Link from "next/link";
 import type { Metadata } from "next";
-import { CircleCheck, Download, ShoppingCart, Slash } from "lucide-react";
+import { CircleCheck, Download, ShoppingCart, Slash, SquareArrowOutUpRight } from "lucide-react";
 
 //Internal Imports
 import { Categories, HeaderNavItems } from "@/data/website-data";
@@ -65,7 +65,7 @@ export default async function Page({ params }: Props) {
           <>
             <div className="container mx-auto flex flex-col items-center justify-center px-5 py-10 xl:max-w-screen-xl">
               <SectionHeader
-                caption={`Free ${portfolioItem.title}`}
+                caption={portfolioItem.title}
                 desc={portfolioItem.subtitle}
               />
               <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
@@ -78,6 +78,18 @@ export default async function Page({ params }: Props) {
                       <Download />
                       <span> Download Now</span>
                     </a>
+                  </Button>
+                )}
+                {portfolioItem.productWebsite && (
+                  <Button asChild className="py-5 text-base">
+                    <Link
+                      href={portfolioItem.productWebsite}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <SquareArrowOutUpRight />
+                      Product Website
+                    </Link>
                   </Button>
                 )}
               </div>

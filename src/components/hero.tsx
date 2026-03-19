@@ -45,8 +45,8 @@ const Hero = () => {
       <div className="z-0 container m-auto px-5 pt-24 text-lg md:px-10 md:pt-32 xl:max-w-screen-xl">
         <div className="flex flex-col bg-transparent pt-5 pb-7 text-center">
           <SectionHeader
-            caption="Free PDF Split Combine Tool"
-            desc="Easily split, combine, or split & merge PDF files using our free online tools or secure desktop applications"
+            caption="PDF Split Combine Tools"
+            desc="Easily split, combine, or split & merge PDF files using our online tools or secure desktop applications. Try any tool with a fully functional free trial. "
             element="h1"
           />
         </div>
